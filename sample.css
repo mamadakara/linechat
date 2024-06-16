@@ -1,0 +1,32 @@
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    input[type="text"], input[type="datetime-local"], textarea, button {
+        display: block;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: 16px;
+        width: 80%;
+    }
+    button {
+        cursor: pointer;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+    #output {
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 80%;
+        margin: 10px auto;
+    }
